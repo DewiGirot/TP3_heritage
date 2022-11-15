@@ -2,9 +2,9 @@ package partie1.ex3;
 
 public class Voiture {
 
-  private final int vitesseMax;
-  private final double prixDeBase;
-  private final String couleur;
+  private int vitesseMax;
+  private double prixDeBase;
+  private String couleur;
 
   public Voiture(int vitesseMax, double prix, String couleur) {
     this.vitesseMax = vitesseMax;
@@ -36,7 +36,7 @@ public class Voiture {
     this.couleur = couleur;
   }
 
-  public double calculerPrixDeVente() {
+  public double calculerPrixVente() {
     return this.prixDeBase;
   }
 

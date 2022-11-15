@@ -8,12 +8,17 @@ public class Camion extends Voiture {
   public Camion(int vitesseMax, double prix, String couleur, int poids) {
     super(vitesseMax, prix, couleur);
     this.poids = poids;
+  }
 
+  @Override
+  public double calculerPrixVente(){
+    double prixVente = super.calculerPrixVente();
     if (poids > 2000) {
-      this.prixPoids = super.calculerPrixDeVente() / 1.10;
+      prixVente = super.calculerPrixVente() / 1.10;
     } else {
-      this.prixPoids = super.calculerPrixDeVente() / 1.20;
+      prixVente = super.calculerPrixVente() / 1.20;
     }
+    return prixVente;
   }
 
 }

@@ -16,9 +16,9 @@ public class Limousine extends Voiture {
   @Override
   public double calculerPrixVente() {
     if (getLongueur() > 6) {
-      return super.calculerPrixDeVente() / 1.05;
+      return super.calculerPrixVente() / 1.05;
     } else {
-      return super.calculerPrixDeVente() * 1.1;
+      return super.calculerPrixVente() * 1.1;
     }
   }
 
