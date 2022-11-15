@@ -1,11 +1,9 @@
 Exercice 1 :
  - Héritage multiple !!! Interdit en java
- - Il faut mettre private l'attribut test et lui créer un getter
- - Il faut utiliser le getter dans le sysout de la méthode 'run'
 
 
 Exercice 2 :
- - classe B => Manque getter pour "a"
- - classe D => Le "a" est private donc provoque l'erreur
- - classe E => Même erreur que le B
+ - classe B => a est private
+ - classe D => a est private et b est protected => D n'hérite pas de A donc n'a pas accès au protected
+ - classe E => Aucun problème
  - classe F => Même erreur que le D

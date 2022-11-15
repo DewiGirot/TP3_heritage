@@ -17,7 +17,7 @@ public class Renault extends Voiture {
 
   @Override
   public double calculerPrixVente() {
-    return super.calculerPrixVente() * (1 / getReductionConstructeur());
+    return super.calculerPrixVente() - getReductionConstructeur();
   }
 
 }
