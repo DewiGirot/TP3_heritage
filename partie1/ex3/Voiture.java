@@ -2,9 +2,9 @@ package partie1.ex3;
 
 public class Voiture {
 
-  private int vitesseMax;
-  private double prixDeBase;
-  private String couleur;
+  private final int vitesseMax;
+  private final double prixDeBase;
+  private final String couleur;
 
   public Voiture(int vitesseMax, double prix, String couleur) {
     this.vitesseMax = vitesseMax;
