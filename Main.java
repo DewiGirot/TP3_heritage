@@ -1,5 +1,8 @@
+import Partie1.PointA;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    PointA point = new PointA(2, 3);
+    point.afficher();
   }
 }
