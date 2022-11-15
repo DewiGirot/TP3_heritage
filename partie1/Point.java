@@ -1,4 +1,4 @@
-package Partie1;
+package partie1;
 
 class Point {
   private int x, y;

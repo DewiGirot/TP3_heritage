@@ -1,4 +1,4 @@
-package Partie1;
+package partie1;
 
 public class PointA extends Point {
   private int x, y;
